@@ -270,7 +270,7 @@ textarea {
   margin-bottom: 30px;
 }
 .terms {
-  color: var(--selection-color);
+  color: black;
 }
 .close-button {
   position: absolute;
