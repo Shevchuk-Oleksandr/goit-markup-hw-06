@@ -9,30 +9,6 @@
   refs.closeModalBtn.addEventListener('click', toggleModal);
 
   function toggleModal() {
-    refs.modal.classList.toggle('backdrop---is-hidden');
+    refs.modal.classList.toggle('is-hidden');
   }
-})();
-
-(() => {
-  document.querySelector('.subscription-form').addEventListener('submit', e => {
-    e.preventDefault();
-
-    new FormData(e.currentTarget).forEach((value, name) =>
-      console.log(`${name}: ${value}`),
-    );
-
-    e.currentTarget.reset();
-  });
-})();
-
-(() => {
-  document.querySelector('.callback-form').addEventListener('submit', e => {
-    e.preventDefault();
-
-    new FormData(e.currentTarget).forEach((value, name) =>
-      console.log(`${name}: ${value}`),
-    );
-
-    e.currentTarget.reset();
-  });
 })();
