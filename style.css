@@ -215,6 +215,7 @@ body {
   opacity: 1;
   background: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms;
+  z-index: 1;
 }
 .is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.8);
