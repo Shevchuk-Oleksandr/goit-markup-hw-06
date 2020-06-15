@@ -1001,6 +1001,7 @@ body {
 .button-portfolio:hover {
   background-color: var(--akcent-color);
   color: white;
+  cursor: pointer;
 }
 
 .button-item + .button-item {
